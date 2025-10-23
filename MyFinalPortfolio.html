@@ -1,0 +1,208 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safeena | Portfolio</title>
+  <style>
+    /* Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Segoe UI", sans-serif; }
+
+    body {
+      background: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #222;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #0077b6;
+    }
+
+    section {
+      padding: 5rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      color: #111;
+      border-left: 4px solid #0077b6;
+      padding-left: 0.5rem;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      border-radius: 4px;
+      background: #0077b6;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background: #005f8c;
+    }
+
+    ul { margin-left: 1rem; }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      border-top: 1px solid #eee;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .social a {
+      margin: 0 0.5rem;
+      font-size: 1.3rem;
+      text-decoration: none;
+      color: #0077b6;
+    }
+
+    /* Responsive */
+    @media(max-width: 768px) {
+      nav { display: none; }
+      header { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Safeena Puletipalli</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <h1>Hi, I'm Safeena</h1>
+    <p>Aspiring Software Engineer | Passionate about Full stack Development & Problem Solving</p>
+    <a class="btn" href="SAFEENA_Resume.pdf" target="_blank">Download Resume</a>
+  </section>
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Motivated Java Full Stack Developer with hands-on experience building responsive web applications using
+HTML, CSS,JavaScript, React, Java, and MySQL
+. Seeking an entry-level position to apply technical skills, problem-solving ability,and a passion for continuous learning to contribute to a dynamic development team.
+    </p>
+  </section>
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Frontend: HTML, CSS, JavaScript, React, responsive design</li>
+      <li>Backend: Java, Spring Boot (learning)</li>
+      <li>Database: SQL, MySQL</li>
+      <li>Tools & Practices: DSA, Git & GitHub, project deployment</li>
+      <li>Soft Skills: Teamwork, Communication, Problem Solving</li>
+    </ul>
+  </section>
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>B.Tech, Computer Science and Engineering</strong> - Computer Science</p>
+    <p>[Dr. M.G.R. Educational and Research Institute], [(2021–2025)] - 8.4 cgpa</p>
+  </section>
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <p>Full Stack Developer Intern (Trainee) — Kodnest, Bangalore (June 2025 – Present)</p>
+    <ul>
+      <li>Learning and implementing Java full stack development (HTML, CSS, JavaScript, React, Java, MySQL, Spring Boot).</li>
+   <li>Built and deployed a To-Do List Application with CRUD features, focusing on interactivity and responsive UI</li>
+<li>Developed front-end projects and integrated them with backend services to demonstrate end-to-end workflows</li>
+  <li>Utilized Git & GitHub for version control and deployment workflows</li>
+<li>Practicing DSA fundamentals to strengthen application logic and problem-solving</li>
+    </ul>
+  </section>
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong> WorkNest (To-Do List Application)</strong></li>
+      <li>Developed and deployed a responsive To-Do List web application for task management using HTML, CSS, JavaScript, React</li>
+     <li>Focused on UI interactivity, responsiveness, and clean design</li>
+     <li>Live Link: https://safeena3.github.io/WorkNest/</li>
+     <li>GitHub Repository: https://github.com/safeena3/WorkNest</li>
+  </ul>
+  </section>
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:psafeena16@gmail.com">psafeena16@gmail.com</a></p>
+    <p>Phone: 9392230049</p>
+    <div class="social">
+      <a href="https://github.com/safeena3" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/p-safeena/" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer>
+    © 2025 Safeena | All Rights Reserved
+  </footer>
+</body>
+</html>
+```
